@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int dengi = 100;
-        int popoln = 1100;
+        int check = 100;
+        int deposit = 1100;
         int bonus;
 
-        if (popoln > 1000) {
-            bonus = popoln / 100;
+        if (deposit > 1000) {
+            bonus = deposit / 100;
         } else {
             bonus = 0;
         }
 
-        int balanc = dengi + popoln + bonus;
-        System.out.println("Ваш баланс: " + balanc + " руб. Ваш бонус: " + bonus + " руб.");
+        int balance = check + deposit + bonus;
+        System.out.println("Ваш баланс: " + balance + " руб. Ваш бонус: " + bonus + " руб.");
     }
 }
